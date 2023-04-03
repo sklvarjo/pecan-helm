@@ -45,8 +45,7 @@ dependencies:
 annotations:
   artifacthub.io/links: |
     - name: Helm Chart
-      #url: https://github.com/pecanproject/pecan-helm
-      url: https://github.com/sklvarjo/pecan-helm
+      url: https://github.com/pecanproject/pecan-helm
   artifacthub.io/license: BSD-3-Clause
   artifacthub.io/changes: |
     - Update BETY chart
