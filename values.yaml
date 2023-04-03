@@ -91,6 +91,11 @@ betydb:
     ## path prefix for all applications (betydb is set below)
     path: /bety/
 
+  # override subchart PVC size for the db 
+  postgresql:
+    persistence:
+      size: 8Gi
+
 ## -------------------------------------------------------------------------------
 ## RABBITMQ APPLICATION
 ## -------------------------------------------------------------------------------
@@ -105,6 +110,10 @@ rabbitmq:
     enabled: false
     hostName: rabbitmq.localhost
     path: /
+
+  # override subchart PVC size 
+  persistence:
+    size: 58Gi
 
 ## -------------------------------------------------------------------------------
 ## INGRESS RULES
