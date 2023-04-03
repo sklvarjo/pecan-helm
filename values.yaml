@@ -155,6 +155,9 @@ ingress:
 ## -------------------------------------------------------------------------------
 
 docs:
+  # add documentation
+  enabled: True
+
   ## replicaCount is the number of instances that should be running.
   replicaCount: 1
 
