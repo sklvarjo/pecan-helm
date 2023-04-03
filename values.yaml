@@ -92,9 +92,9 @@ betydb:
     path: /bety/
 
   # override subchart PVC size for the db 
-  postgresql:
-    persistence:
-      size: 8Gi
+  #postgresql:
+  #  persistence:
+  #    size: 8Gi
 
 ## -------------------------------------------------------------------------------
 ## RABBITMQ APPLICATION
@@ -112,8 +112,8 @@ rabbitmq:
     path: /
 
   # override subchart PVC size 
-  persistence:
-    size: 58Gi
+  #persistence:
+  #  size: 8Gi
 
 ## -------------------------------------------------------------------------------
 ## INGRESS RULES
